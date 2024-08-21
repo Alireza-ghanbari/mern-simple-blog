@@ -40,7 +40,7 @@ export default function SignIn() {
       if (res.ok) {
         const {user} = data.data
         const {token} = data.data
-        dispatch(signInSuccess({token, user}));
+        dispatch(signInSuccess({user, token}));
         navigate("/");
       }
     } catch (error) {
