@@ -54,7 +54,7 @@ export default function SignUp() {
             <Label value="Your full name" />
             <TextInput
               type="text"
-              placeholder="full name"
+              placeholder="Full name"
               id="fullName"
               onChange={handleChange}
             />
