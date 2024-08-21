@@ -39,7 +39,6 @@ export default function SignIn() {
 
       if (res.ok) {
         const {user} = data.data
-        console.log(user)
         localStorage.setItem("token", data.data.token)
         dispatch(signInSuccess(user));
         navigate("/");

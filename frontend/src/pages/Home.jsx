@@ -4,7 +4,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-        <Button className='bg-blue-500 rounded-full'>Home</Button>
+        <h1>Home</h1>
     </div>
   )
 }
