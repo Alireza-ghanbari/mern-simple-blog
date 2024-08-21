@@ -71,7 +71,7 @@ export default function DashProfile() {
     try {
       dispatch(deleteUserStart());
       const res = await fetch(
-        `http://localhost:5000/api/user/${currentUser.id}`,
+        `http://localhost:5000/api/user/${currentUser._id}`,
         {
           headers: {
             "Content-Type": "application/json",
